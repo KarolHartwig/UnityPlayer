@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/FirstPersonPerspective.unity
+- path: Assets/Scenes/ThirdPersonPerspective.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

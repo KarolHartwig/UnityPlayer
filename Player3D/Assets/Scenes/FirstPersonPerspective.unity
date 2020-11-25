@@ -3095,7 +3095,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 120155244}
-  m_RootOrder: 0
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: -13.7960005, y: 0, z: 0}
 --- !u!114 &32155425
 MonoBehaviour:
@@ -3218,7 +3218,7 @@ GameObject:
   m_Layer: 8
   m_Name: Player
   m_TagString: Untagged
-  m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -3251,9 +3251,9 @@ Transform:
   m_LocalPosition: {x: 1, y: 24.7, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 32155424}
   - {fileID: 1727217468}
   - {fileID: 2025841729}
+  - {fileID: 32155424}
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -7361,7 +7361,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 36e1b1a643cfff247b02357eee573774,
         type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 36e1b1a643cfff247b02357eee573774,
         type: 3}
@@ -7565,7 +7565,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 36e1b1a643cfff247b02357eee573774,
         type: 3}
       propertyPath: m_Name
-      value: xbot
+      value: PlayerModel
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 36e1b1a643cfff247b02357eee573774,
         type: 3}
@@ -8710,7 +8710,7 @@ GameObject:
   m_Layer: 8
   m_Name: GroundCheck
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: -5397416234189338067, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -8726,5 +8726,5 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 120155244}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
