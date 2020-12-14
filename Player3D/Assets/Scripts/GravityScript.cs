@@ -13,6 +13,7 @@ public class GravityScript : MonoBehaviour
     public LayerMask groundMask;
 
     private Vector3 velocity;
+
     // Update is called once per frame
     void Update()
     {
